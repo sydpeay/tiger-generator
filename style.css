@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Pacifico", cursive;
+}
+
+body {
+	padding: 1.5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+button {
+	font-size: 2em;
+	margin: 1em auto;
+	background-color: inherit;
+	border: none;
+}
+
+button:hover {
+	text-shadow: 0 0 0.25em #ff9933, 0 0 0.5em #ff9933, 0 0 0.75em #ff9933, 0 0 1em #ff9933;
+}
